@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="stylesheet" href="../styles.css">
+    <title>DSC Multi</title>
+</head>
+
+<body class="page" data-page="page7">
+    <!-- Cabecera para ocultar contenido -->
+    <header></header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
+            <p><a href="../index.html">DSC Multi</a></p>
+        </div>
+
+        <!-- Menú -->
+        <ul class="menu">
+            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page1.html">Login</a></li>
+            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+        </ul>
+
+        <!-- Menú desplegable -->
+        <li class="dropdown">
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <ul class="submenu">
+                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
+                <li><a href="page4.html" id="link-ventana-email"></a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
+                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+            </ul>
+        </li>
+    </nav>
+
+    <!-- Contenido -->
+    <main class="content-manual">
+        <div class="parrafo">
+            <h2 id="titulo-ventana"></h2>
+            <h3 id="descripcion-general"></h3>
+            <p id="descripcion-texto"></p>
+
+            <img src="../Imagenes/ventana-registro.png" alt="">
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="componentes-ventana"></h3>
+            <ol>
+                <li id="titulo-principal"></li>
+                <ul>
+                    <li id="texto-registro"></li>
+                    <li id="funcion-registro"></li>
+                </ul>
+                <li id="campos-entrada"></li>
+                <p id="descripcion-campos"></p>
+                <ul>
+                    <li id="campo-mail"></li>
+                    <li id="campo-nombre"></li>
+                    <li id="campo-apellidos"></li>
+                    <li id="campo-dni"></li>
+                    <li id="campo-alias"></li>
+                    <li id="campo-contraseña"></li>
+                </ul>
+                <li id="botones-funcionales"></li>
+                <ul>
+                    <li id="boton-ok"></li>
+                    <li id="boton-cancel"></li>
+                </ul>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="funcionamiento"></h3>
+            <ol>
+                <li id="rellenar-campos"></li>
+                <li id="clic-ok"></li>
+                <li id="clic-cancel"></li>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="resumen"></h3>
+            <p id="descripcion-resumen"></p>
+        </div>
+
+        <!-- Botones -->
+        <div class="botones">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('../index.html')">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page1.html')">
+        </div>
+    </main>
+
+    <!-- Selector de idioma -->
+    <section class="selector-idioma">
+        <select id="language">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+    </section>
+
+    <p id="paginacion" class="paginacion"></p>
+
+    <!-- Footer -->
+    <footer>
+        <p id="footer-autor"></p>
+        <p id="footer-derechos"></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+
+</html>

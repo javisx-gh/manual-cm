@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="stylesheet" href="../styles.css">
+    <title>DSC Multi</title>
+</head>
+
+<body class="page" data-page="page6">
+    <!-- Cabecera para ocultar contenido -->
+    <header></header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
+            <p><a href="../index.html">DSC Multi</a></p>
+        </div>
+
+        <!-- Menú -->
+        <ul class="menu">
+            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page1.html">Login</a></li>
+            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+        </ul>
+
+        <!-- Menú desplegable -->
+        <li class="dropdown">
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <ul class="submenu">
+                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
+                <li><a href="page4.html" id="link-ventana-email"></a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
+                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+            </ul>
+        </li>
+    </nav>
+
+    <!-- Contenido -->
+    <main class="content-manual">
+        <div class="parrafo">
+            <h2 id="ventana-informacion-titulo"></h2>
+            <h3 id="descripcion-general-acerca-de"></h3>
+            <p id="descripcion-acerca-de"></p>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="componentes-ventana-acerca-de"></h3>
+            <ol>
+                <li id="titulo-programa"></li>
+
+                <img src="../Imagenes/ventana-info.png" alt="">
+
+                <ul>
+                    <li id="texto-programa"></li>
+                    <li id="funcion-programa"></li>
+                </ul>
+
+                <li id="seccion-desarrolladores"></li>
+                <ul>
+                    <li id="descripcion-desarrolladores"></li>
+                    <li id="lista-desarrolladores-titulo"></li>
+                    <ul>
+                        <li id="desarrollador-1"></li>
+                        <li id="desarrollador-2"></li>
+                        <li id="desarrollador-3"></li>
+                        <li id="desarrollador-4"></li>
+                        <li id="desarrollador-5"></li>
+                    </ul>
+                </ul>
+
+                <li id="aviso-derechos-autor"></li>
+                <ul>
+                    <li id="texto-derechos-autor"></li>
+                    <p id="copyright-derechos-autor"></p>
+                    <p id="derechos-reservados-autor"></p>
+                    <li id="funcion-derechos-autor"></li>
+                </ul>
+
+                <li id="simbolo-copyright"></li>
+                <ul>
+                    <li id="imagen-copyright"></li>
+                    <li id="proposito-copyright"></li>
+                </ul>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="uso-ventana-acerca-de"></h3>
+            <ul>
+                <li id="uso-informativa"></li>
+                <li id="uso-desarrolladores"></li>
+                <li id="uso-acceso"></li>
+            </ul>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="resumen-acerca-de"></h3>
+            <p id="resumen-final-acerca-de"></p>
+        </div>
+
+        <!-- Botones -->
+        <div class="botones">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page5.html')">
+            <input type="button" id="boton-salir" onclick="abrirPagina('../index.html')">
+        </div>
+    </main>
+
+    <!-- Selector de idioma -->
+    <section class="selector-idioma">
+        <select id="language">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+    </section>
+
+    <p id="paginacion" class="paginacion"></p>
+
+    <!-- Footer -->
+    <footer>
+        <p id="footer-autor"></p>
+        <p id="footer-derechos"></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+
+</html>

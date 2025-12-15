@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="stylesheet" href="../styles.css">
+    <title>DSC Multi</title>
+</head>
+
+<body class="page" data-page="page5">
+    <!-- Cabecera para ocultar contenido -->
+    <header></header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
+            <p><a href="../index.html">DSC Multi</a></p>
+        </div>
+
+        <!-- Menú -->
+        <ul class="menu">
+            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page1.html">Login</a></li>
+            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+        </ul>
+
+        <!-- Menú desplegable -->
+        <li class="dropdown">
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <ul class="submenu">
+                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
+                <li><a href="page4.html" id="link-ventana-email"></a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
+                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+            </ul>
+        </li>
+    </nav>
+
+    <!-- Contenido -->
+    <main class="content-manual">
+        <div class="parrafo">
+            <h2 id="configuracion-usuarios-titulo"></h2>
+
+            <h3 id="ventana-configuracion-usuario"></h3>
+            <h3 id="descripcion-general-usuario"></h3>
+            <p id="descripcion-usuario"></p>
+
+            <img src="../Imagenes/ventana-config.png" alt="">
+
+            <h3 id="componentes-ventana-usuario"></h3>
+            <ol>
+                <li id="campos-informacion-usuario"></li>
+                <p id="campos-informacion-descripcion"></p>
+                <ul>
+                    <li id="campo-nickname"></li>
+                    <li id="campo-name"></li>
+                    <li id="campo-last-name"></li>
+                    <li id="campo-email"></li>
+                    <li id="campo-password"></li>
+                    <li id="campo-dni"></li>
+                    <li id="campo-rol-description"></li>
+                </ul>
+
+                <li id="botones-funcionales-usuario"></li>
+                <ul>
+                    <li id="boton-eliminate"></li>
+                    <li id="boton-modify"></li>
+                    <li id="boton-exit"></li>
+                </ul>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="ventana-gestion-usuarios"></h3>
+            <h3 id="descripcion-general-admin"></h3>
+            <p id="descripcion-admin"></p>
+
+            <img src="../Imagenes/ventana-config-2.png" alt="">
+
+            <h3 id="componentes-ventana-admin"></h3>
+            <ol>
+                <li id="tabla-usuarios"></li>
+                <p id="tabla-usuarios-descripcion"></p>
+                <ul>
+                    <li id="columna-nombre"></li>
+                    <li id="columna-correo"></li>
+                    <li id="columna-permiso"></li>
+                    <li id="columna-rol"></li>
+                </ul>
+                <p id="tabla-barra-desplazamiento"></p>
+
+                <li id="barra-busqueda"></li>
+                <ul>
+                    <li id="campo-busqueda"></li>
+                    <li id="boton-buscar"></li>
+                </ul>
+
+                <li id="botones-funcionales-admin"></li>
+                <ul>
+                    <li id="boton-crear"></li>
+                    <li id="boton-modificar"></li>
+                    <li id="boton-borrar"></li>
+                    <li id="boton-volver"></li>
+                </ul>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="resumen-usuarios"></h3>
+            <ul>
+                <li id="resumen-primera-ventana"></li>
+                <li id="resumen-segunda-ventana"></li>
+            </ul>
+            <p id="resumen-final"></p>
+        </div>
+
+        <!-- Botones -->
+        <div class="botones">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page4.html')">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page6.html')">
+        </div>
+    </main>
+
+    <!-- Selector de idioma -->
+    <section class="selector-idioma">
+        <select id="language">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+    </section>
+
+    <p id="paginacion" class="paginacion"></p>
+
+    <!-- Footer -->
+    <footer>
+        <p id="footer-autor"></p>
+        <p id="footer-derechos"></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+
+</html>

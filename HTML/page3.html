@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="stylesheet" href="../styles.css">
+    <title>DSC Multi</title>
+</head>
+
+<body class="page" data-page="page3">
+    <!-- Cabecera para ocultar contenido -->
+    <header></header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
+            <p><a href="../index.html">DSC Multi</a></p>
+        </div>
+
+        <!-- Menú -->
+        <ul class="menu">
+            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page1.html">Login</a></li>
+            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+        </ul>
+
+        <!-- Menú desplegable -->
+        <li class="dropdown">
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <ul class="submenu">
+                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
+                <li><a href="page4.html" id="link-ventana-email"></a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
+                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+            </ul>
+        </li>
+    </nav>
+
+    <!-- Contenido -->
+    <main class="content-manual">
+        <div class="parrafo">
+            <h2 id="titulo-ventana"></h2>
+            <h3 id="titulo-descripcion"></h3>
+            <p id="descripcion-general"></p>
+
+            <img src="../Imagenes/ventana-ftp.png" alt="">
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="titulo-componentes"></h3>
+            <ol>
+                <li id="componente-barra-superior"></li>
+                <ul>
+                    <li id="campo-texto"></li>
+                    <li id="boton-rename"></li>
+                    <ul>
+                        <li id="ubicacion-rename"></li>
+                        <li id="funcion-rename"></li>
+                    </ul>
+                </ul>
+                <li id="componente-boton-reload"></li>
+                <ul>
+                    <li id="ubicacion-reload"></li>
+                    <li id="funcion-reload"></li>
+                </ul>
+                <li id="componente-opciones-gestion"></li>
+                <p id="ubicacion-opciones"></p>
+                <ul>
+                    <li id="opcion-create-directory"></li>
+                    <ul>
+                        <li id="funcion-create-directory"></li>
+                    </ul>
+                    <li id="opcion-delete-directory"></li>
+                    <ul>
+                        <li id="funcion-delete-directory"></li>
+                    </ul>
+                    <li id="opcion-modify-directory"></li>
+                    <ul>
+                        <li id="funcion-modify-directory"></li>
+                    </ul>
+                    <li id="opcion-delete-file"></li>
+                    <ul>
+                        <li id="funcion-delete-file"></li>
+                    </ul>
+                    <li id="opcion-download-file"></li>
+                    <ul>
+                        <li id="funcion-download-file"></li>
+                    </ul>
+                </ul>
+                <li id="componente-arbol-archivos"></li>
+                <ul>
+                    <li id="ubicacion-arbol"></li>
+                    <li id="descripcion-arbol"></li>
+                </ul>
+                <li id="componente-boton-exit"></li>
+                <ul>
+                    <li id="ubicacion-exit"></li>
+                    <li id="funcion-exit"></li>
+                </ul>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+            
+            <h3 id="titulo-usos"></h3>
+            <ol>
+                <li id="uso-navegacion"></li>
+                <ul>
+                    <li id="navegacion-arbol"></li>
+                </ul>
+                <li id="uso-gestion"></li>
+                <ul>
+                    <li id="menu-gestion"></li>
+                    <ul>
+                        <li id="gestion-crear"></li>
+                        <li id="gestion-archivos"></li>
+                    </ul>
+                </ul>
+                <li id="uso-rename"></li>
+                <ul>
+                    <li id="rename-texto"></li>
+                    <li id="rename-seleccionar"></li>
+                    <li id="rename-boton"></li>
+                </ul>
+                <li id="uso-actualizar"></li>
+                <ul>
+                    <li id="actualizar-reload"></li>
+                </ul>
+                <li id="uso-salir"></li>
+                <ul>
+                    <li id="salir-exit"></li>
+                </ul>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+            
+            <h3 id="titulo-proposito"></h3>
+            <p id="proposito-ventana"></p>
+        </div>
+
+        <!-- Botones -->
+        <div class="botones">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page2.html')">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page4.html')">
+        </div>
+    </main>
+
+    <!-- Selector de idioma -->
+    <section class="selector-idioma">
+        <select id="language">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+    </section>
+
+    <p id="paginacion" class="paginacion"></p>
+
+    <!-- Footer -->
+    <footer>
+        <p id="footer-autor"></p>
+        <p id="footer-derechos"></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+</body>
+
+</html>
