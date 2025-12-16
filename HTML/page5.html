@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="icon" href="../Imagenes/Icono.png" type="image/png">
     <link rel="stylesheet" href="../styles.css">
-    <title>DSC Multi</title>
+    <title>Configuración de Usuarios</title>
 </head>
 
 <body class="page" data-page="page5">
@@ -15,25 +15,25 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
-            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
-            <p><a href="../index.html">DSC Multi</a></p>
+            <img src="../Imagenes/Icono.png" alt="logo">
+            <p><a href="../index.html" id="link-logo">Centímetro Málaga</a></p>
         </div>
 
         <!-- Menú -->
         <ul class="menu">
-            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page7.html" id="link-ventana-registro">Ventana Registro</a></li>
             <li><a href="page1.html">Login</a></li>
-            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+            <li><a href="page2.html" id="link-menu-seleccion">Menú selección</a></li>
         </ul>
 
         <!-- Menú desplegable -->
         <li class="dropdown">
-            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""> Más</a>
             <ul class="submenu">
-                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
-                <li><a href="page4.html" id="link-ventana-email"></a></li>
-                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
-                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+                <li><a href="page3.html" id="link-ventana-ftp">Ventana FTP</a></li>
+                <li><a href="page4.html" id="link-ventana-email">Ventana Email</a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion">Ventana Configuracion</a></li>
+                <li><a href="page6.html" id="link-ventana-informacion">Ventana Información</a></li>
             </ul>
         </li>
     </nav>
@@ -41,33 +41,35 @@
     <!-- Contenido -->
     <main class="content-manual">
         <div class="parrafo">
-            <h2 id="configuracion-usuarios-titulo"></h2>
+            <h2 id="configuracion-usuarios-titulo">Configuración de Usuarios</h2>
 
-            <h3 id="ventana-configuracion-usuario"></h3>
-            <h3 id="descripcion-general-usuario"></h3>
-            <p id="descripcion-usuario"></p>
+            <h3 id="ventana-configuracion-usuario">1. Ventana de Configuración de Usuario</h3>
+            <h3 id="descripcion-general-usuario">Descripción General</h3>
+            <p id="descripcion-usuario">Esta ventana permite a los usuarios configurar su propia información personal y
+                realizar modificaciones básicas en su perfil.</p>
 
             <img src="../Imagenes/ventana-config.png" alt="">
 
-            <h3 id="componentes-ventana-usuario"></h3>
+            <h3 id="componentes-ventana-usuario">Componentes de la Ventana</h3>
             <ol>
-                <li id="campos-informacion-usuario"></li>
-                <p id="campos-informacion-descripcion"></p>
+                <li id="campos-informacion-usuario">Campos de Información del Usuario:</li>
+                <p id="campos-informacion-descripcion">Los usuarios pueden introducir o editar sus datos personales en
+                    los siguientes campos:</p>
                 <ul>
-                    <li id="campo-nickname"></li>
-                    <li id="campo-name"></li>
-                    <li id="campo-last-name"></li>
-                    <li id="campo-email"></li>
-                    <li id="campo-password"></li>
-                    <li id="campo-dni"></li>
-                    <li id="campo-rol-description"></li>
+                    <li id="campo-nickname">Nickname: Nombre de usuario o alias.</li>
+                    <li id="campo-name">Name: Nombre real del usuario.</li>
+                    <li id="campo-last-name">Last Name: Apellido del usuario.</li>
+                    <li id="campo-email">Email: Dirección de correo electrónico.</li>
+                    <li id="campo-password">Password: Contraseña de acceso al sistema.</li>
+                    <li id="campo-dni">DNI: Número de identificación del usuario.</li>
+                    <li id="campo-rol-description">Rol Description: Breve descripción del rol asignado al usuario.</li>
                 </ul>
 
-                <li id="botones-funcionales-usuario"></li>
+                <li id="botones-funcionales-usuario">Botones Funcionales:</li>
                 <ul>
-                    <li id="boton-eliminate"></li>
-                    <li id="boton-modify"></li>
-                    <li id="boton-exit"></li>
+                    <li id="boton-eliminate">Eliminate: Permite eliminar los datos del usuario actual.</li>
+                    <li id="boton-modify">Modify: Guarda los cambios realizados en los campos de información.</li>
+                    <li id="boton-exit">Exit: Cierra la ventana actual y regresa al menú anterior.</li>
                 </ul>
             </ol>
 
@@ -75,36 +77,42 @@
                 <div></div>
             </div>
 
-            <h3 id="ventana-gestion-usuarios"></h3>
-            <h3 id="descripcion-general-admin"></h3>
-            <p id="descripcion-admin"></p>
+            <h3 id="ventana-gestion-usuarios">2. Ventana de Gestión de Usuarios (Admin)</h3>
+            <h3 id="descripcion-general-admin">Descripción General</h3>
+            <p id="descripcion-admin">Esta ventana está destinada al administrador del sistema. Permite gestionar la
+                información de los usuarios registrados dentro de la empresa, realizar búsquedas y modificaciones, así
+                como crear o eliminar perfiles.</p>
 
             <img src="../Imagenes/ventana-config-2.png" alt="">
 
-            <h3 id="componentes-ventana-admin"></h3>
+            <h3 id="componentes-ventana-admin">Componentes de la Ventana</h3>
             <ol>
-                <li id="tabla-usuarios"></li>
-                <p id="tabla-usuarios-descripcion"></p>
+                <li id="tabla-usuarios">Tabla de Usuarios:</li>
+                <p id="tabla-usuarios-descripcion">Muestra la lista de usuarios con sus respectivas columnas:</p>
                 <ul>
-                    <li id="columna-nombre"></li>
-                    <li id="columna-correo"></li>
-                    <li id="columna-permiso"></li>
-                    <li id="columna-rol"></li>
+                    <li id="columna-nombre">Nombre: Nombre del usuario.</li>
+                    <li id="columna-correo">Correo: Dirección de correo electrónico.</li>
+                    <li id="columna-permiso">Permiso: Nivel de permisos asignado al usuario (roles o privilegios).</li>
+                    <li id="columna-rol">Rol: Rol específico del usuario dentro de la organización.</li>
                 </ul>
-                <p id="tabla-barra-desplazamiento"></p>
+                <p id="tabla-barra-desplazamiento">La tabla incluye una barra de desplazamiento para navegar por todos
+                    los registros disponibles.</p>
 
-                <li id="barra-busqueda"></li>
+                <li id="barra-busqueda">Barra de Búsqueda:</li>
                 <ul>
-                    <li id="campo-busqueda"></li>
-                    <li id="boton-buscar"></li>
+                    <li id="campo-busqueda">Campo de búsqueda: Permite escribir el nombre, correo u otra información
+                        para localizar un usuario específico.</li>
+                    <li id="boton-buscar">Botón 'Buscar': Filtra los resultados en la tabla basándose en los criterios
+                        introducidos.</li>
                 </ul>
 
-                <li id="botones-funcionales-admin"></li>
+                <li id="botones-funcionales-admin">Botones Funcionales:</li>
                 <ul>
-                    <li id="boton-crear"></li>
-                    <li id="boton-modificar"></li>
-                    <li id="boton-borrar"></li>
-                    <li id="boton-volver"></li>
+                    <li id="boton-crear">Crear: Permite añadir un nuevo usuario al sistema.</li>
+                    <li id="boton-modificar">Modificar: Edita la información de un usuario seleccionado en la tabla.
+                    </li>
+                    <li id="boton-borrar">Borrar: Elimina el usuario seleccionado de la lista.</li>
+                    <li id="boton-volver">Volver: Regresa al menú principal o ventana anterior.</li>
                 </ul>
             </ol>
 
@@ -112,35 +120,32 @@
                 <div></div>
             </div>
 
-            <h3 id="resumen-usuarios"></h3>
+            <h3 id="resumen-usuarios">Resumen</h3>
             <ul>
-                <li id="resumen-primera-ventana"></li>
-                <li id="resumen-segunda-ventana"></li>
+                <li id="resumen-primera-ventana">Primera Ventana: Los usuarios pueden actualizar su propia información
+                    personal de manera autónoma.</li>
+                <li id="resumen-segunda-ventana">Segunda Ventana: El administrador tiene control total sobre los
+                    usuarios registrados, con opciones para crear, modificar, buscar y eliminar perfiles.</li>
             </ul>
-            <p id="resumen-final"></p>
+            <p id="resumen-final">Estas funcionalidades aseguran una gestión eficiente de los datos personales y del
+                sistema por parte de usuarios y administradores.</p>
         </div>
 
         <!-- Botones -->
         <div class="botones">
-            <input type="button" id="boton-anterior" onclick="abrirPagina('page4.html')">
-            <input type="button" id="boton-siguiente" onclick="abrirPagina('page6.html')">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page4.html')" value="Anterior">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page6.html')" value="Siguiente">
         </div>
     </main>
 
-    <!-- Selector de idioma -->
-    <section class="selector-idioma">
-        <select id="language">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-        </select>
-    </section>
 
-    <p id="paginacion" class="paginacion"></p>
+
+    <p id="paginacion" class="paginacion">Página 6</p>
 
     <!-- Footer -->
     <footer>
-        <p id="footer-autor"></p>
-        <p id="footer-derechos"></p>
+        <p id="footer-autor">Diseñado y desarrollado por DSC Multi S.A.</p>
+        <p id="footer-derechos">Todos los derechos reservados © 2024</p>
     </footer>
 
     <!-- Scripts -->
