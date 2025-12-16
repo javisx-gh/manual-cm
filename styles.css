@@ -19,8 +19,7 @@ body.index {
     align-items: center;
     font-family: monospace;
     background:
-        linear-gradient(to right, rgb(115, 100, 210, 0.7), rgb(151, 223, 252, 5.5)),
-        url('Imagenes/FTP.png') no-repeat center center/cover fixed;
+        linear-gradient(to right, rgba(249, 255, 0, 0.7), rgb(247, 250, 150, 5.5));
     overflow: hidden;
     animation: fadeIn 1s ease-in-out;
 
@@ -35,7 +34,7 @@ body.index {
             position: fixed;
             max-width: 60%;
             width: 59%;
-            top: 32%;
+            top: 27%;
             left: 35%;
             display: flex;
             flex-wrap: wrap;
@@ -46,12 +45,8 @@ body.index {
             max-width: 400px;
             width: 35%;
             height: auto;
-            margin-top: 15%;
+            margin-top: 10%;
             margin-left: 5%;
-            border-top-left-radius: 500px;
-            border-top-right-radius: 500px;
-            border-bottom-left-radius: 100px;
-            border-bottom-right-radius: 100px;
         }
 
         h1 {
