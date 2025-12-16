@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="icon" href="../Imagenes/Icono.png" type="image/png">
     <link rel="stylesheet" href="../styles.css">
-    <title id="titulo-pagina"></title>
+    <title id="titulo-pagina">Centímetro Málaga</title>
 </head>
 
 <body class="page" data-page="page1">
@@ -16,25 +16,25 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
-            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
-            <p><a href="../index.html">DSC Multi</a></p>
+            <img src="../Imagenes/Icono.png" alt="logo">
+            <p><a href="../index.html" id="link-logo">Centímetro Málaga</a></p>
         </div>
 
         <!-- Menú -->
         <ul class="menu">
-            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page7.html" id="link-ventana-registro">Ventana Registro</a></li>
             <li><a href="page1.html">Login</a></li>
-            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+            <li><a href="page2.html" id="link-menu-seleccion">Menú selección</a></li>
         </ul>
 
         <!-- Menú desplegable -->
         <li class="dropdown">
-            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""> Más</a>
             <ul class="submenu">
-                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
-                <li><a href="page4.html" id="link-ventana-email"></a></li>
-                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
-                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+                <li><a href="page3.html" id="link-ventana-ftp">Ventana FTP</a></li>
+                <li><a href="page4.html" id="link-ventana-email">Ventana Email</a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion">Ventana Configuracion</a></li>
+                <li><a href="page6.html" id="link-ventana-informacion">Ventana Información</a></li>
             </ul>
         </li>
     </nav>
@@ -43,8 +43,10 @@
     <main class="content-manual">
         <div class="parrafo">
             <h2>Login</h2>
-            <h3 id="titulo-descripcion"></h3>
-            <p id="parrafo-descripcion"></p>
+            <h3 id="titulo-descripcion">Descripción General</h3>
+            <p id="parrafo-descripcion">La ventana de inicio de sesión permite al usuario acceder a una aplicación
+                proporcionando sus credenciales. Consta de campos para introducir un nombre de usuario y una contraseña,
+                así como botones para confirmar o cancelar la acción.</p>
 
             <img src="../Imagenes/login.png" alt="Login" id="imagen-login">
 
@@ -52,47 +54,48 @@
                 <div></div>
             </div>
 
-            <h3 id="titulo-componentes"></h3>
+            <h3 id="titulo-componentes">Componentes de la Ventana</h3>
             <ol>
-                <li id="area-bienvenida"></li>
+                <li id="area-bienvenida">Área de bienvenida</li>
                 <ul>
-                    <li id="ubicacion-area"></li>
-                    <li id="descripcion-area"></li>
+                    <li id="ubicacion-area">Ubicación: A la izquierda de la pantalla.</li>
+                    <li id="descripcion-area">Descripción: Mensaje de bienvenida que indica la función del formulario
+                        ("Welcome to the Login form").</li>
                 </ul>
 
-                <li id="campo-nombre-usuario"></li>
+                <li id="campo-nombre-usuario">Campo de entrada: Nombre de Usuario (Username)</li>
                 <ul>
-                    <li id="ubicacion-nombre-usuario"></li>
-                    <li id="funcion-nombre-usuario">
-                        <ul>
-                            <li id="descripcion-funcion-nombre-usuario"></li>
-                            <li id="descripcion-funcion-campo"></li>
-                        </ul>
+                    <li id="ubicacion-nombre-usuario">Ubicación: Parte central de la ventana, debajo de la imagen de
+                        usuario.</li>
+                    <li id="funcion-nombre-usuario">Función: El usuario debe introducir su nickname o nombre de usuario.
                     </li>
                 </ul>
 
-                <li id="campo-contrasena"></li>
+                <li id="campo-contrasena">Campo de entrada: Contraseña (Password)</li>
                 <ul>
-                    <li id="ubicacion-contrasena"></li>
-                    <li id="funcion-contrasena"></li>
+                    <li id="ubicacion-contrasena">Ubicación: Debajo del campo de nombre de usuario.</li>
+                    <li id="funcion-contrasena">Función: El usuario debe introducir su contraseña.</li>
                 </ul>
 
-                <li id="boton-ok"></li>
+                <li id="boton-ok">Botón 'Ok'</li>
                 <ul>
-                    <li id="ubicacion-ok"></li>
-                    <li id="funcion-ok"></li>
+                    <li id="ubicacion-ok">Ubicación: Debajo de los campos de entrada.</li>
+                    <li id="funcion-ok">Función: Al hacer clic en 'Ok', el sistema procesa las credenciales y permite
+                        continuar a la siguiente pantalla si los datos son correctos.</li>
                 </ul>
 
-                <li id="boton-cancelar"></li>
+                <li id="boton-cancelar">Botón 'Cancelar'</li>
                 <ul>
-                    <li id="ubicacion-cancelar"></li>
-                    <li id="funcion-cancelar"></li>
+                    <li id="ubicacion-cancelar">Ubicación: Debajo del botón 'Ok'.</li>
+                    <li id="funcion-cancelar"><b>'Función:'</b> Al hacer clic en 'Cancelar', la aplicación se cierra.
+                    </li>
                 </ul>
 
-                <li id="imagen-icono"></li>
+                <li id="imagen-icono">Imagen de Icono</li>
                 <ul>
-                    <li id="ubicacion-icono"></li>
-                    <li id="descripcion-icono"></li>
+                    <li id="ubicacion-icono">Ubicación: Parte superior central.</li>
+                    <li id="descripcion-icono">Descripción: Representa un usuario con una llave, indicando la necesidad
+                        de autenticación.</li>
                 </ul>
             </ol>
 
@@ -100,50 +103,48 @@
                 <div></div>
             </div>
 
-            <h3 id="flujo-uso"></h3>
+            <h3 id="flujo-uso">Flujo de Uso</h3>
             <ol>
-                <li id="inicio"></li>
-                <p id="descripcion-inicio"></p>
+                <li id="inicio">Inicio</li>
+                <p id="descripcion-inicio">El usuario visualiza la ventana con el mensaje de bienvenida y los campos
+                    vacíos.</p>
 
-                <li id="introduccion-credenciales"></li>
+                <li id="introduccion-credenciales">Introducción de Credenciales</li>
                 <ul>
-                    <li id="accion-usuario-username"></li>
-                    <li id="accion-usuario-password"></li>
+                    <li id="accion-usuario-username">El usuario escribe su nombre de usuario en el campo Username.</li>
+                    <li id="accion-usuario-password">Luego, introduce su contraseña en el campo Password.</li>
                 </ul>
 
-                <li id="accion-usuario"></li>
+                <li id="accion-usuario">Acción del Usuario</li>
                 <ul>
-                    <li id="aceptar-ok"></li>
+                    <li id="aceptar-ok">Aceptar (Ok): Si el usuario hace clic en este botón, la aplicación validará las
+                        credenciales.</li>
                     <ul>
-                        <li id="aceptar-correctas"></li>
-                        <li id="aceptar-incorrectas"></li>
+                        <li id="aceptar-correctas">Si las credenciales son correctas: El sistema procederá a la
+                            siguiente etapa.</li>
+                        <li id="aceptar-incorrectas">Si son incorrectas: Aparecerá un mensaje de error solicitando
+                            verificar los datos.</li>
                     </ul>
-                    <li id="cancelar"></li>
+                    <li id="cancelar">Cancelar (Cancel): Si el usuario hace clic aquí, la aplicación se cerrará.</li>
                 </ul>
             </ol>
         </div>
 
         <!-- Botones -->
         <div class="botones">
-            <input type="button" id="boton-anterior" onclick="abrirPagina('page7.html')">
-            <input type="button" id="boton-siguiente" onclick="abrirPagina('page2.html')">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page7.html')" value="Anterior">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page2.html')" value="Siguiente">
         </div>
     </main>
 
-    <!-- Selector de idioma -->
-    <section class="selector-idioma">
-        <select id="language">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-        </select>
-    </section>
 
-    <p id="paginacion" class="paginacion"></p>
+
+    <p id="paginacion" class="paginacion">Página 2</p>
 
     <!-- Footer -->
     <footer>
-        <p id="footer-autor"></p>
-        <p id="footer-derechos"></p>
+        <p id="footer-autor">Diseñado y desarrollado por DSC Multi S.A.</p>
+        <p id="footer-derechos">Todos los derechos reservados © 2024</p>
     </footer>
 
     <!-- Scripts -->

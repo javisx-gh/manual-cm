@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="icon" href="../Imagenes/Icono.png" type="image/png">
     <link rel="stylesheet" href="../styles.css">
-    <title>DSC Multi</title>
+    <title id="titulo-pagina">Ventana del Sistema FTP</title>
 </head>
 
 <body class="page" data-page="page3">
@@ -15,25 +15,25 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
-            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
-            <p><a href="../index.html">DSC Multi</a></p>
+            <img src="../Imagenes/Icono.png" alt="logo">
+            <p><a href="../index.html" id="link-logo">Centímetro Málaga</a></p>
         </div>
 
         <!-- Menú -->
         <ul class="menu">
-            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page7.html" id="link-ventana-registro">Ventana Registro</a></li>
             <li><a href="page1.html">Login</a></li>
-            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+            <li><a href="page2.html" id="link-menu-seleccion">Menú selección</a></li>
         </ul>
 
         <!-- Menú desplegable -->
         <li class="dropdown">
-            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""> Más</a>
             <ul class="submenu">
-                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
-                <li><a href="page4.html" id="link-ventana-email"></a></li>
-                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
-                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+                <li><a href="page3.html" id="link-ventana-ftp">Ventana FTP</a></li>
+                <li><a href="page4.html" id="link-ventana-email">Ventana Email</a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion">Ventana Configuracion</a></li>
+                <li><a href="page6.html" id="link-ventana-informacion">Ventana Información</a></li>
             </ul>
         </li>
     </nav>
@@ -41,9 +41,12 @@
     <!-- Contenido -->
     <main class="content-manual">
         <div class="parrafo">
-            <h2 id="titulo-ventana"></h2>
-            <h3 id="titulo-descripcion"></h3>
-            <p id="descripcion-general"></p>
+            <h2 id="titulo-ventana">Ventana del Sistema FTP</h2>
+            <h3 id="titulo-descripcion">Descripción General</h3>
+            <p id="descripcion-general">La ventana del sistema FTP permite al usuario realizar tareas de gestión de
+                archivos y directorios. Estas acciones incluyen crear, eliminar, modificar y descargar archivos o
+                carpetas. El árbol de archivos ubicado en la interfaz muestra la estructura actual del sistema,
+                facilitando la navegación.</p>
 
             <img src="../Imagenes/ventana-ftp.png" alt="">
 
@@ -51,121 +54,128 @@
                 <div></div>
             </div>
 
-            <h3 id="titulo-componentes"></h3>
+            <h3 id="titulo-componentes">Componentes de la ventana</h3>
             <ol>
-                <li id="componente-barra-superior"></li>
+                <li id="componente-barra-superior">Barra Superior</li>
                 <ul>
-                    <li id="campo-texto"></li>
-                    <li id="boton-rename"></li>
+                    <li id="campo-texto">Campo de texto: Ubicado en la parte superior central. Permite ingresar el
+                        nombre del archivo o carpeta que se desea renombrar.</li>
+                    <li id="boton-rename">Botón Rename:</li>
                     <ul>
-                        <li id="ubicacion-rename"></li>
-                        <li id="funcion-rename"></li>
+                        <li id="ubicacion-rename">Ubicación: Parte superior derecha.</li>
+                        <li id="funcion-rename">Función: Actualiza y recarga el árbol de archivos para mostrar la
+                            estructura más reciente.</li>
                     </ul>
                 </ul>
-                <li id="componente-boton-reload"></li>
+                <li id="componente-boton-reload">Botón Reload</li>
                 <ul>
-                    <li id="ubicacion-reload"></li>
-                    <li id="funcion-reload"></li>
+                    <li id="ubicacion-reload">Ubicación: Parte superior izquierda.</li>
+                    <li id="funcion-reload">Función: Actualiza y recarga el árbol de archivos para mostrar la estructura
+                        más reciente.</li>
                 </ul>
-                <li id="componente-opciones-gestion"></li>
-                <p id="ubicacion-opciones"></p>
+                <li id="componente-opciones-gestion">Opciones de Gestión de Archivos/Directorios</li>
+                <p id="ubicacion-opciones">Ubicadas en la sección izquierda de la ventana, estas opciones permiten
+                    interactuar con el sistema FTP:</p>
                 <ul>
-                    <li id="opcion-create-directory"></li>
+                    <li id="opcion-create-directory">Create Directory:</li>
                     <ul>
-                        <li id="funcion-create-directory"></li>
+                        <li id="funcion-create-directory">Crea un nuevo directorio dentro de la ubicación seleccionada.
+                        </li>
                     </ul>
-                    <li id="opcion-delete-directory"></li>
+                    <li id="opcion-delete-directory">Delete Directory:</li>
                     <ul>
-                        <li id="funcion-delete-directory"></li>
+                        <li id="funcion-delete-directory">Elimina el directorio seleccionado en el árbol de archivos.
+                        </li>
                     </ul>
-                    <li id="opcion-modify-directory"></li>
+                    <li id="opcion-modify-directory">Modify Directory:</li>
                     <ul>
-                        <li id="funcion-modify-directory"></li>
+                        <li id="funcion-modify-directory">Permite modificar las propiedades o el nombre de un directorio
+                            existente.</li>
                     </ul>
-                    <li id="opcion-delete-file"></li>
+                    <li id="opcion-delete-file">Delete File:</li>
                     <ul>
-                        <li id="funcion-delete-file"></li>
+                        <li id="funcion-delete-file">Elimina un archivo seleccionado en el árbol de archivos.</li>
                     </ul>
-                    <li id="opcion-download-file"></li>
+                    <li id="opcion-download-file">Download File:</li>
                     <ul>
-                        <li id="funcion-download-file"></li>
+                        <li id="funcion-download-file">Descarga un archivo específico a una ubicación local.</li>
                     </ul>
                 </ul>
-                <li id="componente-arbol-archivos"></li>
+                <li id="componente-arbol-archivos">Árbol de Archivos (JTree)</li>
                 <ul>
-                    <li id="ubicacion-arbol"></li>
-                    <li id="descripcion-arbol"></li>
+                    <li id="ubicacion-arbol">Ubicación: Parte derecha de la ventana.</li>
+                    <li id="descripcion-arbol">Descripción: Muestra la estructura del sistema de archivos FTP. Los
+                        directorios y subdirectorios se representan de forma jerárquica para facilitar la navegación.
+                    </li>
                 </ul>
-                <li id="componente-boton-exit"></li>
+                <li id="componente-boton-exit">Botón Exit</li>
                 <ul>
-                    <li id="ubicacion-exit"></li>
-                    <li id="funcion-exit"></li>
+                    <li id="ubicacion-exit">Ubicación: Parte inferior central.</li>
+                    <li id="funcion-exit">Función: Cierra la ventana FTP y finaliza la sesión actual.</li>
                 </ul>
             </ol>
 
             <div class="linea">
                 <div></div>
             </div>
-            
-            <h3 id="titulo-usos"></h3>
+
+            <h3 id="titulo-usos">Usos de la ventana FTP</h3>
             <ol>
-                <li id="uso-navegacion"></li>
+                <li id="uso-navegacion">Navegación:</li>
                 <ul>
-                    <li id="navegacion-arbol"></li>
+                    <li id="navegacion-arbol">Utilice el árbol de archivos para seleccionar el directorio o archivo con
+                        el que desea trabajar.</li>
                 </ul>
-                <li id="uso-gestion"></li>
+                <li id="uso-gestion">Gestión de Archivos/Directorios:</li>
                 <ul>
-                    <li id="menu-gestion"></li>
+                    <li id="menu-gestion">Haga clic en las opciones del menú izquierdo para realizar las siguientes
+                        acciones:</li>
                     <ul>
-                        <li id="gestion-crear"></li>
-                        <li id="gestion-archivos"></li>
+                        <li id="gestion-crear">Crear, eliminar o modificar directorios.</li>
+                        <li id="gestion-archivos">Eliminar o descargar archivos.</li>
                     </ul>
                 </ul>
-                <li id="uso-rename"></li>
+                <li id="uso-rename">Renombrar Archivos/Directorios:</li>
                 <ul>
-                    <li id="rename-texto"></li>
-                    <li id="rename-seleccionar"></li>
-                    <li id="rename-boton"></li>
+                    <li id="rename-texto">Ingrese el nuevo nombre en el campo de texto superior.</li>
+                    <li id="rename-seleccionar">Seleccione el elemento en el árbol de archivos.</li>
+                    <li id="rename-boton">Haga clic en Rename.</li>
                 </ul>
-                <li id="uso-actualizar"></li>
+                <li id="uso-actualizar">Actualizar:</li>
                 <ul>
-                    <li id="actualizar-reload"></li>
+                    <li id="actualizar-reload">Haga clic en Reload para refrescar la vista y confirmar los cambios
+                        realizados.</li>
                 </ul>
-                <li id="uso-salir"></li>
+                <li id="uso-salir">Salir:</li>
                 <ul>
-                    <li id="salir-exit"></li>
+                    <li id="salir-exit">Presione el botón Exit para cerrar la ventana.</li>
                 </ul>
             </ol>
 
             <div class="linea">
                 <div></div>
             </div>
-            
-            <h3 id="titulo-proposito"></h3>
-            <p id="proposito-ventana"></p>
+
+            <h3 id="titulo-proposito">Propósito de la Ventana</h3>
+            <p id="proposito-ventana">Facilitar al usuario la gestión remota de archivos y directorios en un sistema FTP
+                mediante una interfaz gráfica intuitiva y funcional.</p>
         </div>
 
         <!-- Botones -->
         <div class="botones">
-            <input type="button" id="boton-anterior" onclick="abrirPagina('page2.html')">
-            <input type="button" id="boton-siguiente" onclick="abrirPagina('page4.html')">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page2.html')" value="Anterior">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page4.html')" value="Siguiente">
         </div>
     </main>
 
-    <!-- Selector de idioma -->
-    <section class="selector-idioma">
-        <select id="language">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-        </select>
-    </section>
 
-    <p id="paginacion" class="paginacion"></p>
+
+    <p id="paginacion" class="paginacion">Página 4</p>
 
     <!-- Footer -->
     <footer>
-        <p id="footer-autor"></p>
-        <p id="footer-derechos"></p>
+        <p id="footer-autor">Diseñado y desarrollado por DSC Multi S.A.</p>
+        <p id="footer-derechos">Todos los derechos reservados © 2024</p>
     </footer>
 
     <!-- Scripts -->

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../Imagenes/dscmultiLOGO_2.png" type="image/png">
+    <link rel="icon" href="../Imagenes/Icono.png" type="image/png">
     <link rel="stylesheet" href="../styles.css">
-    <title>DSC Multi</title>
+    <title>Ventana Email</title>
 </head>
 
 <body class="page" data-page="page4">
@@ -15,25 +15,25 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
-            <img src="../Imagenes/dscmultiLOGO_2.png" alt="logo">
-            <p><a href="../index.html">DSC Multi</a></p>
+            <img src="../Imagenes/Icono.png" alt="logo">
+            <p><a href="../index.html" id="link-logo">Centímetro Málaga</a></p>
         </div>
 
         <!-- Menú -->
         <ul class="menu">
-            <li><a href="page7.html" id="link-ventana-registro"></a></li>
+            <li><a href="page7.html" id="link-ventana-registro">Ventana Registro</a></li>
             <li><a href="page1.html">Login</a></li>
-            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
+            <li><a href="page2.html" id="link-menu-seleccion">Menú selección</a></li>
         </ul>
 
         <!-- Menú desplegable -->
         <li class="dropdown">
-            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""> Más</a>
             <ul class="submenu">
-                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
-                <li><a href="page4.html" id="link-ventana-email"></a></li>
-                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
-                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
+                <li><a href="page3.html" id="link-ventana-ftp">Ventana FTP</a></li>
+                <li><a href="page4.html" id="link-ventana-email">Ventana Email</a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion">Ventana Configuracion</a></li>
+                <li><a href="page6.html" id="link-ventana-informacion">Ventana Información</a></li>
             </ul>
         </li>
     </nav>
@@ -41,40 +41,47 @@
     <!-- Contenido -->
     <main class="content-manual">
         <div class="parrafo">
-            <h2 id="ventana-email-titulo"></h2>
-            <h3 id="gestion-correos-principal"></h3>
+            <h2 id="ventana-email-titulo">Ventana Email</h2>
+            <h3 id="gestion-correos-principal">1. Ventana Principal de Gestión de Correos</h3>
 
-            <h3 id="descripcion-general-correos"></h3>
-            <p id="descripcion-correos"></p>
+            <h3 id="descripcion-general-correos">Descripción General</h3>
+            <p id="descripcion-correos">Esta ventana permite al usuario gestionar los correos electrónicos dentro de su
+                sistema de mensajería. Se ofrecen funcionalidades comunes para la navegación y organización de mensajes.
+            </p>
 
             <img src="../Imagenes/ventana-email.png" alt="">
 
-            <h3 id="componentes-ventana-correos"></h3>
+            <h3 id="componentes-ventana-correos">Componentes de la Ventana</h3>
             <ol>
-                <li id="boton-create-new"></li>
-                <p id="boton-create-new-descripcion"></p>
+                <li id="boton-create-new">Botón "Create New"</li>
+                <p id="boton-create-new-descripcion">Permite crear un nuevo correo electrónico. Al hacer clic, se abrirá
+                    la ventana de envío de correos.</p>
                 <ul>
-                    <li id="boton-create-new-funcion"></li>
+                    <li id="boton-create-new-funcion">Función: Redirige a la ventana de "Send Mail" (Envío de Correos).
+                    </li>
                 </ul>
 
-                <li id="carpetas-correo"></li>
-                <p id="carpetas-correo-descripcion"></p>
+                <li id="carpetas-correo">Carpetas de Correo</li>
+                <p id="carpetas-correo-descripcion">Una lista de secciones de correos donde el usuario puede navegar
+                    entre los mensajes:</p>
                 <ul>
-                    <li id="carpeta-inbox"></li>
-                    <li id="carpeta-unread"></li>
-                    <li id="carpeta-sent"></li>
-                    <li id="carpeta-draft"></li>
-                    <li id="carpeta-spam"></li>
-                    <li id="carpeta-trash"></li>
+                    <li id="carpeta-inbox">Inbox: Muestra los correos recibidos.</li>
+                    <li id="carpeta-unread">Unread: Filtra los mensajes no leídos.</li>
+                    <li id="carpeta-sent">Sent: Acceso a los correos enviados.</li>
+                    <li id="carpeta-draft">Draft: Muestra los borradores guardados.</li>
+                    <li id="carpeta-spam">Spam: Contiene los correos no deseados.</li>
+                    <li id="carpeta-trash">Trash: Almacena los mensajes eliminados.</li>
                 </ul>
 
-                <li id="area-visualizacion"></li>
-                <p id="area-visualizacion-descripcion"></p>
+                <li id="area-visualizacion">Área Principal de Visualización</li>
+                <p id="area-visualizacion-descripcion">La sección grande de color gris permite mostrar la lista de
+                    correos electrónicos o los detalles del mensaje seleccionado.</p>
 
-                <li id="botones-inferiores"></li>
+                <li id="botones-inferiores">Botones Inferiores</li>
                 <ul>
-                    <li id="boton-refresh"></li>
-                    <li id="boton-back"></li>
+                    <li id="boton-refresh">Refresh: Actualiza la lista de correos electrónicos para mostrar los mensajes
+                        más recientes.</li>
+                    <li id="boton-back">Back: Regresa a la ventana anterior o al menú principal.</li>
                 </ul>
             </ol>
 
@@ -82,54 +89,54 @@
                 <div></div>
             </div>
 
-            <h3 id="gestion-correos-secundaria"></h3>
-            <h3 id="descripcion-general-envio"></h3>
-            <p id="descripcion-envio"></p>
+            <h3 id="gestion-correos-secundaria">2. Ventana Principal de Gestión de Correos</h3>
+            <h3 id="descripcion-general-envio">Descripción General</h3>
+            <p id="descripcion-envio">Esta ventana permite redactar y enviar correos electrónicos. Incluye la
+                funcionalidad de adjuntar archivos.</p>
 
             <img src="../Imagenes/ventana-email-2.png" alt="">
 
-            <h3 id="componentes-ventana-envio"></h3>
+            <h3 id="componentes-ventana-envio">Componentes de la Ventana</h3>
             <ol>
-                <li id="campos-entrada"></li>
+                <li id="campos-entrada">Campos de Entrada</li>
                 <ul>
-                    <li id="campo-to"></li>
-                    <li id="campo-topic"></li>
-                    <li id="campo-message"></li>
+                    <li id="campo-to">To: Campo donde el usuario debe introducir la dirección de correo del
+                        destinatario.</li>
+                    <li id="campo-topic">Topic: Aquí se escribe el asunto del correo.</li>
+                    <li id="campo-message">Message: Un área de texto amplia donde el usuario redacta el cuerpo del
+                        correo.</li>
                 </ul>
 
-                <li id="botones-funcionales"></li>
+                <li id="botones-funcionales">Botones Funcionales</li>
                 <ul>
-                    <li id="boton-add-file"></li>
-                    <li id="boton-send"></li>
-                    <li id="boton-cancel"></li>
+                    <li id="boton-add-file">Add File: Permite adjuntar archivos al correo electrónico. Al hacer clic, se
+                        abrirá un cuadro de diálogo para seleccionar el archivo.</li>
+                    <li id="boton-send">Send: Envía el correo con la información ingresada.</li>
+                    <li id="boton-cancel">Cancel: Cancela la operación y regresa a la ventana principal sin guardar
+                        cambios.</li>
                 </ul>
 
-                <li id="archivos-adjuntos"></li>
-                <p id="archivos-adjuntos-descripcion"></p>
+                <li id="archivos-adjuntos">Sección Inferior de Archivos Adjuntos</li>
+                <p id="archivos-adjuntos-descripcion">Un espacio donde se mostrarán los archivos añadidos al correo
+                    electrónico.</p>
             </ol>
         </div>
 
         <!-- Botones -->
         <div class="botones">
-            <input type="button" id="boton-anterior" onclick="abrirPagina('page3.html')">
-            <input type="button" id="boton-siguiente" onclick="abrirPagina('page5.html')">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page3.html')" value="Anterior">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page5.html')" value="Siguiente">
         </div>
     </main>
 
-    <!-- Selector de idioma -->
-    <section class="selector-idioma">
-        <select id="language">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-        </select>
-    </section>
 
-    <p id="paginacion" class="paginacion"></p>
+
+    <p id="paginacion" class="paginacion">Página 5</p>
 
     <!-- Footer -->
     <footer>
-        <p id="footer-autor"></p>
-        <p id="footer-derechos"></p>
+        <p id="footer-autor">Diseñado y desarrollado por DSC Multi S.A.</p>
+        <p id="footer-derechos">Todos los derechos reservados © 2024</p>
     </footer>
 
     <!-- Scripts -->
