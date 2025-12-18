@@ -289,7 +289,7 @@ body.page {
                 transition: color 0.3s;
 
                 &:hover {
-                    color: #c2ca2e;
+                    color: #E4001B;
                     background-color: transparent;
                 }
             }
