@@ -19,8 +19,7 @@ body.index {
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background:
-        linear-gradient(to left, rgba(26, 26, 26, 0.7), rgb(26, 26, 26, 5.5)),
-        url(Imagenes/lineasMetro.png);
+        linear-gradient(to left, rgba(26, 26, 26, 0.7), rgb(26, 26, 26, 5.5));
     overflow: hidden;
     animation: fadeIn 1s ease-in-out;
 
@@ -220,8 +219,7 @@ body.page {
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background:
-        linear-gradient(to left, rgba(26, 26, 26, 0.7), rgb(45, 45, 45, 5.5)),
-        url(Imagenes/lineasMetro.png) fixed;
+        linear-gradient(to left, rgba(26, 26, 26, 0.7), rgb(45, 45, 45, 5.5));
     overflow-x: hidden;
     animation: fadeIn 1s ease-in-out;
 
