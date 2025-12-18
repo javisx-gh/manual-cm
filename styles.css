@@ -241,7 +241,7 @@ body.page {
         left: 2%;
         display: flex;
         justify-content: space-between;
-        background: rgba(138, 138, 0, 0.3);
+        background: rgb(26,26,26);
         backdrop-filter: blur(50px);
         border: 2px solid rgb(228, 0, 27, 0.6);
         border-radius: 15px;
@@ -287,7 +287,7 @@ body.page {
                 transition: color 0.3s;
 
                 &:hover {
-                    color: #fc9797;
+                    color: #c2ca2e;
                     background-color: transparent;
                 }
             }
