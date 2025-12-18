@@ -241,11 +241,7 @@ body.page {
         left: 2%;
         display: flex;
         justify-content: space-between;
-<<<<<<< HEAD
-        background: rgb(26,26,26);
-=======
         background: rgba(26, 26, 26, 0.3);
->>>>>>> 362f61b30bed70562cd1275bfd58895ed78385e6
         backdrop-filter: blur(50px);
         border: 2px solid rgb(228, 0, 27, 0.6);
         border-radius: 15px;
