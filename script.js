@@ -1,6 +1,6 @@
-//window.location.href = "https://javisx-gh.github.io/manual-ftp/";
+//window.location.href = "https://javisx-gh.github.io/manual-cm/";
 
-// Abre una página en el navegador
+// Redirecciona a la URL especificada
 function abrirPagina(url) {
     window.location.href = url;
 }
