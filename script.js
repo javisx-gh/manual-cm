@@ -1,4 +1,4 @@
-//window.location.href = "https://javisx-gh.github.io/manual-cm/";
+window.location.href = "https://javisx-gh.github.io/manual-cm/";
 
 // Redirecciona a la URL especificada
 function abrirPagina(url) {
